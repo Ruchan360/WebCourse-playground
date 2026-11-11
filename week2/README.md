@@ -2,12 +2,11 @@
 
 **Project type:** Student club and event discovery (fictional sample prototype)
 
-**Important:** Replace the placeholders below with the real names of your group members before submitting. Do not claim that a GitHub repository or Lighthouse test exists until you have actually created or run it.
-
 - Team name: [YOUR TEAM NAME]
-- Team members (3–4 people): [FULL NAMES]
+- Team members: Rüçhan Yılmaz, Abdullah Burak Özdemir, Ömer Çağan Öztürk, Çağrı Cebeci
 - Course: MIS 457 – Web Based Application Programming
 - Assignment: Week 2 – HTML5, Accessibility and Modern CSS
+- Repository: https://github.com/Ruchan360/WebCourse-playground
 
 ## Project idea
 
@@ -50,7 +49,7 @@ Open the folder in VS Code, install the Live Server extension, and select **Go L
 - [x] Semantic HTML (`header`, `nav`, `main`, `section`, `article`, `footer`)
 - [x] Keyboard focus styles and skip-to-content link
 - [x] HTML language and viewport tags
-- [ ] GitHub repository URL (must be created or updated by your team)
+- [x] GitHub repository URL: https://github.com/Ruchan360/WebCourse-playground
 - [ ] Actual Chrome Lighthouse Accessibility screenshot and score (must be run and captured)
 
 ## Get the Lighthouse screenshot (do not fake the score)
