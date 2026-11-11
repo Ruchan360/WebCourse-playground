@@ -50,7 +50,10 @@ Open the folder in VS Code, install the Live Server extension, and select **Go L
 - [x] Keyboard focus styles and skip-to-content link
 - [x] HTML language and viewport tags
 - [x] GitHub repository URL: https://github.com/Ruchan360/WebCourse-playground
-- [ ] Actual Chrome Lighthouse Accessibility screenshot and score (must be run and captured)
+- [x] Chrome Lighthouse Accessibility (Desktop): `index.html` **100**, `join.html` **100** — see [lighthouse/](lighthouse/)
+
+![Lighthouse index.html](lighthouse/index-accessibility.png)
+![Lighthouse join.html](lighthouse/join-accessibility.png)
 
 ## Get the Lighthouse screenshot (do not fake the score)
 
