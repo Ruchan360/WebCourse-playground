@@ -2,7 +2,7 @@
 
 **Project type:** Student club and event discovery (fictional sample prototype)
 
-- Team name: [YOUR TEAM NAME]
+- Team name: CampusLoop
 - Team members: Rüçhan Yılmaz, Abdullah Burak Özdemir, Ömer Çağan Öztürk, Çağrı Cebeci
 - Course: MIS 457 – Web Based Application Programming
 - Assignment: Week 2 – HTML5, Accessibility and Modern CSS
