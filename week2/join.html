@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Try the CampusLoop student event sign-up form. This is an HTML and CSS class prototype and does not collect personal data.">
+  <title>Join an Event | CampusLoop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="CampusLoop home"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>campus<span class="brand-strong">loop</span></span></a>
+      <nav class="main-nav" aria-label="Main navigation"><a href="index.html#events">Events</a><a href="index.html#about">About</a><a class="nav-action" href="join.html" aria-current="page">Join a club <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="form-main">
+    <div class="container form-layout">
+      <section class="form-intro" aria-labelledby="form-heading">
+        <a class="back-link" href="index.html#events"><span aria-hidden="true">←</span> Back to events</a>
+        <p class="eyebrow form-eyebrow">YOU'RE INVITED</p>
+        <h1 id="form-heading">Make room for <em>something new.</em></h1>
+        <p>Pick an event, share a few details, and take the first step toward making new connections.</p>
+        <div class="form-decoration" aria-hidden="true"><span class="form-ring form-ring-a"></span><span class="form-ring form-ring-b"></span><span class="form-spark">✳</span><span class="form-deco-word">HELLO!</span></div>
+      </section>
+
+      <section class="signup-panel" aria-labelledby="signup-heading">
+        <p class="panel-step">01 / EVENT SIGN-UP</p>
+        <h2 id="signup-heading">Save your spot <span aria-hidden="true">✦</span></h2>
+        <p class="panel-subtitle">Fields marked with * are required.</p>
+        <form class="signup-form" action="thanks.html" method="get">
+          <div class="field-group"><label for="full-name">Full name <span aria-hidden="true">*</span></label><input type="text" id="full-name" autocomplete="name" placeholder="e.g. Alex Morgan" required minlength="2"></div>
+          <div class="field-group"><label for="email">Email address <span aria-hidden="true">*</span></label><input type="email" id="email" autocomplete="email" placeholder="alex@example.com" required></div>
+          <div class="field-group"><label for="event-choice">Choose an event <span aria-hidden="true">*</span></label><select id="event-choice" required><option value="" selected disabled>Select an event</option><option value="coding">Coding &amp; Coffee</option><option value="design">Design Jam</option><option value="startup">Startup Pitch Night</option><option value="photo">Campus Photo Walk</option><option value="green">Green Campus Meetup</option><option value="film">Film &amp; Conversation</option></select></div>
+          <div class="field-group"><label for="message">Anything you'd like us to know? <span class="optional">Optional</span></label><textarea id="message" rows="3" placeholder="A question, an idea, or just a hello..."></textarea></div>
+          <button class="button button-accent form-submit" type="submit">Preview registration <span aria-hidden="true">→</span></button>
+        </form>
+        <p class="privacy-note"><span aria-hidden="true">ⓘ</span> Course demo only. Form data is <strong>not transmitted or stored</strong>; the button opens a sample confirmation page.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><p><strong>campusloop</strong> <span>© 2026 · MIS 457 Week 2</span></p><p>Class project prototype · No real events or registrations</p></div></footer>
+</body>
+</html>

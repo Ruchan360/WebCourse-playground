@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Ankara Tasarım Buluşması",
+    "category": "Tasarım",
+    "date": "15 Kasım 2026",
+    "location": "CerModern, Ankara",
+    "description": "Yaratıcı endüstriler, tasarım ve yeni fikirler üzerine ilham verici bir buluşma."
+  },
+  {
+    "id": 2,
+    "title": "Girişimcilik ve Teknoloji Zirvesi",
+    "category": "Teknoloji",
+    "date": "18 Kasım 2026",
+    "location": "ODTÜ, Ankara",
+    "description": "Teknoloji girişimleri ve yenilikçi iş fikirleri hakkında konuşmalar."
+  },
+  {
+    "id": 3,
+    "title": "Kampüste Müzik Akşamı",
+    "category": "Müzik",
+    "date": "20 Kasım 2026",
+    "location": "Üniversite Kampüsü, Ankara",
+    "description": "Canlı müzik performanslarıyla keyifli bir kampüs akşamı."
+  },
+  {
+    "id": 4,
+    "title": "Fotoğrafçılık Atölyesi",
+    "category": "Sanat",
+    "date": "22 Kasım 2026",
+    "location": "Kızılay, Ankara",
+    "description": "Temel fotoğraf tekniklerini uygulamalı olarak keşfet."
+  },
+  {
+    "id": 5,
+    "title": "Kariyer ve Staj Günleri",
+    "category": "Kariyer",
+    "date": "24 Kasım 2026",
+    "location": "Congresium, Ankara",
+    "description": "Şirketlerle tanış, kariyer fırsatlarını ve staj programlarını incele."
+  },
+  {
+    "id": 6,
+    "title": "Koşu ve Sağlıklı Yaşam Etkinliği",
+    "category": "Spor",
+    "date": "29 Kasım 2026",
+    "location": "Eymir Gölü, Ankara",
+    "description": "Açık havada hareket et, spor ve sağlıklı yaşam topluluğuna katıl."
+  }
+]

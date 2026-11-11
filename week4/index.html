@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yaklaşan etkinlikleri keşfet ve ilgilendiklerini bul.">
+  <title>Etkinlik Keşfet | MIS 457</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Etkinlik Keşfet ana sayfa">etkinlik<span>.</span></a>
+    <span class="course-tag">MIS 457 · Week 4</span>
+  </header>
+
+  <main class="container">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">ANKARA'DA NELER OLUYOR?</p>
+      <h1 id="page-title">Bir sonraki güzel<br>planını <span>keşfet.</span></h1>
+      <p class="intro">İlgi alanına uygun etkinlikleri keşfet, takvimine biraz heyecan kat.</p>
+    </section>
+
+    <section class="events-section" aria-labelledby="events-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SENİN İÇİN SEÇTİKLERİMİZ</p>
+          <h2 id="events-title">Yaklaşan etkinlikler</h2>
+        </div>
+        <label class="search-wrap" for="search-input">
+          <span class="sr-only">Etkinliklerde ara</span>
+          <input id="search-input" type="search" placeholder="Etkinlik ara..." autocomplete="off">
+        </label>
+      </div>
+
+      <div id="status" class="status" role="status" aria-live="polite">Etkinlikler yükleniyor...</div>
+      <div id="events-list" class="events-grid" aria-label="Etkinlik listesi"></div>
+
+      <div class="demo-controls" aria-label="Durum testi araçları">
+        <p>Ödev testi: Diğer durumları görüntüle</p>
+        <button type="button" class="secondary-button" id="empty-demo">Boş durumu göster</button>
+        <button type="button" class="secondary-button" id="error-demo">Hata durumunu göster</button>
+        <button type="button" class="secondary-button" id="reload-button">Verileri yeniden yükle</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Etkinlik Keşfet · MIS 457 Web Based Application Programming</p>
+  </footer>
+</body>
+</html>

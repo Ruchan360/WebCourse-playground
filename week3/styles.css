@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Mobil / 375px Ekran Yapısı */
+.form-section, .list-section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Form Doğrulama Stilleri */
+input.invalid, select.invalid, textarea.invalid {
+    border-color: #d9534f;
+    background-color: #fff8f8;
+}
+
+.error-message {
+    color: #d9534f;
+    font-size: 12px;
+    margin-top: 4px;
+    min-height: 16px;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0052a3;
+}
+
+/* Dinamik Kart Liste Yapısı */
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.card {
+    border: 1px solid #e0e0e0;
+    border-left: 4px solid #0066cc;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
+
+.card h3 {
+    margin-bottom: 5px;
+    color: #0066cc;
+}
+
+.card .badge {
+    display: inline-block;
+    background: #e1f0ff;
+    color: #0066cc;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+/* Masaüstü (1280px ve Üzeri) Yerleşim */
+@media (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        align-items: start;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+}
